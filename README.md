@@ -1,20 +1,32 @@
-# Pastelaria
-Elementos do grupo
+# Pastelaria Pão Quente
 
-Fernando 
+## Elementos do grupo
+- Fernando
+- Jose
+- Gonçalo
 
-Jose
+## Tema
+Desenvolvimento de um sítio Web para uma pastelaria fictícia
+portuguesa, dedicada à venda de pão fresco, bolos,
+produtos de pastelaria e café.
 
-Gonçalo
+## Público-alvo
+Público em geral, incluindo famílias, estudantes e
+trabalhadores que procuram produtos de padaria,
+pastelaria e café.
 
-Tema
+## Objetivo do projeto
+Criar um sítio Web acessível, responsivo e fácil de navegar,
+que apresente os produtos e a identidade da Pastelaria
+Pão Quente.
 
-A definir.
+## Páginas iniciais da E1
+- index.html — página inicial
+- menu.html — produtos e preços
+- sobre.html — apresentação da pastelaria
 
-Público-alvo
-
-A definir.
-
-Objetivo do projeto
-
-Desenvolver um website com três páginas HTML, com navegação interna e conteúdo organizado.
+## Tecnologias
+- HTML
+- CSS
+- JavaScript
+- Git e GitHub
