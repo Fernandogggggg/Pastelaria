@@ -1,9 +1,9 @@
 # Pastelaria Pão Quente
 
 ## Elementos do grupo
-- Fernando Augusto, nº 22410114do
+- Fernando Augusto, nº 22410114
 - José Leite, nº 22607530
--  Gonçalo Ribeiro, nº 22206607
+- Gonçalo Ribeiro, nº 22206607
 
 
 ## Tema
