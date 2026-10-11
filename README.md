@@ -1,9 +1,10 @@
 # Pastelaria Pão Quente
 
 ## Elementos do grupo
-- Fernando
-- Jose
-- Gonçalo
+- FernanFernando Augusto, nº 22410114do
+- José Leite, nº 22607530
+-  Gonçalo Ribeiro, nº 22206607
+
 
 ## Tema
 Desenvolvimento de um sítio Web para uma pastelaria fictícia
