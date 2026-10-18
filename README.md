@@ -1,4 +1,4 @@
-# Pastelaria Pão Quente
+# Pastelaria Crumbly
 
 ## Elementos do grupo
 - Fernando Augusto, nº 22410114
@@ -18,8 +18,7 @@ pastelaria e café.
 
 ## Objetivo do projeto
 Criar um sítio Web acessível, responsivo e fácil de navegar,
-que apresente os produtos e a identidade da Pastelaria
-Pão Quente.
+que apresente os produtos e a identidade da Pastelaria Crumbly.
 
 ## Páginas iniciais da E1
 - index.html — página inicial

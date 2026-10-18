@@ -1,4 +1,4 @@
-# Planeamento E2 — Pastelaria Pão Quente
+# Planeamento E2 — Pastelaria Crumbly
 
 ## Contexto e estado
 

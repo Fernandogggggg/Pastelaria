@@ -1,7 +1,7 @@
-# Sitemap — Pastelaria Pão Quente
+# Sitemap — Pastelaria Crumbly
 
 ```text
-Pastelaria Pão Quente
+Pastelaria Crumbly
 ├── index.html          (Início)
 ├── menu.html           (Menu)
 ├── sobre.html          (Sobre nós)
