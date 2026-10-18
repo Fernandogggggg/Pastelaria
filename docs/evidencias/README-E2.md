@@ -1,6 +1,6 @@
 # Evidências de validação E2
 
-Guardar aqui capturas reais dos resultados apresentados pelo Nu Html Checker oficial, uma por página, depois de repetir a validação se o código mudar:
+Foram guardadas aqui capturas reais dos resultados do Nu Html Checker oficial (vnu 26.10.18), uma por página, em 18-10-2026. Se o HTML mudar, repetir a validação e substituir as capturas correspondentes:
 
 - `w3c-E2-index.png`
 - `w3c-E2-menu.png`

@@ -1,20 +1,19 @@
 # Checklist E2 — Planeamento e formulários
 
-> O enunciado fornecido descreve os requisitos, mas não inclui a formulação literal das cinco metas oficiais. Os cinco itens abaixo são agrupamentos de trabalho derivados desse enunciado; confirmar os títulos oficiais com a ficha da unidade curricular antes da entrega.
+As cinco linhas abaixo resumem os requisitos da E2. Se a ficha da unidade curricular usar títulos diferentes, substituir os títulos pelos da ficha.
 
 Estados: **Concluída**, **Pendente**, **Pendente de validação ou evidência**.
 
 | Meta de trabalho | Estado | Situação/evidência |
 |---|---|---|
-| Planeamento das cinco etapas (análise, planeamento, desenho, implementação e marketing) | Concluída | `docs/planeamento-E2.md` distingue trabalho realizado de trabalho futuro. Rever em grupo. |
-| Sítio com cinco páginas, estrutura semântica e navegação comum | Concluída | Cinco páginas carregadas individualmente no Nu Html Checker vnu 26.10.18; cada uma sem erros nem avisos. |
-| Formulário acessível com os controlos pedidos e validação nativa | Concluída | Teste de validade no navegador: vazio inválido; email e telefone inválidos detetados; todos os campos preenchidos com valores válidos aceites. |
-| CSS coerente, responsivo e informação inicial de acessibilidade | Pendente de validação ou evidência | CSS e declaração implementados; falta revisão visual em tamanhos/dispositivos distintos, teclado e tecnologia de apoio. |
-| Validação HTML oficial sem erros e cinco capturas Nu Html Checker | Pendente de validação ou evidência | Validação oficial concluída sem erros nem avisos para as cinco páginas; faltam guardar cinco capturas reais em `docs/evidencias/`. |
+| Planeamento das cinco etapas (análise, planeamento, desenho, implementação e marketing) | Concluída | O [plano E2](./planeamento-E2.md) apresenta objetivos, tarefas, resultados esperados e formas de verificação para cada etapa. |
+| Sítio com cinco páginas, estrutura semântica e navegação comum | Concluída | As cinco páginas passaram no Nu Html Checker vnu 26.10.18, sem erros nem avisos. |
+| Formulário acessível com os controlos pedidos e validação nativa | Concluída | O navegador bloqueou o formulário vazio e detetou email e telefone inválidos. Com os campos válidos, a validação passou. |
+| CSS coerente, responsivo e informação inicial de acessibilidade | Concluída | A 320, 375, 700 e 1024 px não houve deslocamento horizontal. O foco tem contorno visível de 3 px. A declaração não afirma conformidade WCAG. |
+| Validação HTML oficial sem erros e cinco capturas Nu Html Checker | Concluída | As cinco capturas dos resultados estão em `docs/evidencias/` com o prefixo `w3c-E2-`. |
 
 ## Passos de verificação
 
-1. Abrir individualmente `index.html`, `menu.html`, `sobre.html`, `contactos.html` e `acessibilidade.html` em `https://validator.w3.org/nu/`.
-2. Corrigir erros e avisos relevantes, voltar a validar e guardar uma captura real por página em `docs/evidencias/`.
-3. No navegador, tentar submeter o formulário vazio, usar email inválido, testar telefone fora do padrão e preencher todos os campos com dados válidos. Confirmar que a mensagem do navegador é nativa e que o projeto não afirma enviar os dados.
-4. Rever navegação por teclado, foco, layout estreito e descrição das imagens; atualizar os estados desta lista com os resultados reais.
+1. Cada página foi verificada separadamente no Nu Html Checker. Os cinco resultados e respetivas capturas estão guardados em `docs/evidencias/`.
+2. O formulário foi experimentado no navegador com campos vazios, email inválido, telefone fora do formato e dados válidos.
+3. As cinco páginas foram abertas em larguras de 320, 375, 700 e 1024 px. Não houve deslocamento horizontal. O foco foi confirmado numa ligação de navegação. Ainda não foi feita uma revisão completa com tecnologias de apoio.
