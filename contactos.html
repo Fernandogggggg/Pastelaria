@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contacte a Pastelaria Pão Quente ou indique os produtos que lhe interessam.">
+  <title>Contactos e formulário | Pastelaria Pão Quente</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header"><div class="container header-content"><a class="brand" href="index.html" aria-label="Pastelaria Pão Quente — página inicial"><span class="brand-mark">PQ</span><span>Pastelaria <strong>Pão Quente</strong></span></a><nav aria-label="Navegação principal"><ul class="nav-list"><li><a href="index.html">Início</a></li><li><a href="menu.html">Menu</a></li><li><a href="sobre.html">Sobre nós</a></li><li><a class="active" href="contactos.html" aria-current="page">Contactos</a></li><li><a href="acessibilidade.html">Acessibilidade</a></li></ul></nav></div></header>
+  <main>
+    <section class="page-intro container"><p class="eyebrow">Estamos por perto</p><h1>Fale connosco</h1><p>Use este formulário para colocar uma questão ou indicar os produtos que lhe interessam. Os campos assinalados com * são obrigatórios.</p></section>
+    <section class="container form-section" aria-labelledby="formulario-titulo">
+      <h2 id="formulario-titulo">Formulário de contacto</h2>
+      <p>Este formulário é uma demonstração académica. Não envia nem guarda os dados introduzidos.</p>
+      <form action="contactos.html" method="get">
+        <div class="form-grid">
+          <div class="form-field"><label for="nome">Nome <span aria-hidden="true">*</span></label><input id="nome" name="nome" type="text" autocomplete="name" required></div>
+          <div class="form-field"><label for="email">Email <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required></div>
+          <div class="form-field"><label for="telefone">Telefone <span aria-hidden="true">*</span></label><input id="telefone" name="telefone" type="tel" autocomplete="tel" pattern="(?:\+351\s?)?(?:2\d{2}|9\d{2})\s?\d{3}\s?\d{3}" aria-describedby="telefone-ajuda" required><small id="telefone-ajuda">Formato aceite: número português de 9 algarismos, com indicativo +351 opcional; pode separar os grupos com espaços.</small></div>
+          <div class="form-field"><label for="data-pretendida">Data pretendida</label><input id="data-pretendida" name="data-pretendida" type="date"></div>
+          <div class="form-field form-field-wide"><label for="assunto">Assunto <span aria-hidden="true">*</span></label><select id="assunto" name="assunto" required><option value="">Selecione um assunto</option><option value="produtos">Informação sobre produtos</option><option value="encomenda">Encomenda ou evento</option><option value="outro">Outro assunto</option></select></div>
+        </div>
+        <fieldset><legend>Como prefere ser contactado? <span aria-hidden="true">*</span></legend><div class="choice-list"><label><input type="radio" name="preferencia" value="email" required> Email</label><label><input type="radio" name="preferencia" value="telefone"> Telefone</label></div></fieldset>
+        <fieldset><legend>Produtos do seu interesse</legend><div class="choice-list"><label><input type="checkbox" name="produtos" value="pao"> Pão</label><label><input type="checkbox" name="produtos" value="pastelaria"> Pastelaria</label><label><input type="checkbox" name="produtos" value="bolos"> Bolos</label><label><input type="checkbox" name="produtos" value="bebidas"> Bebidas</label></div></fieldset>
+        <div class="form-field"><label for="mensagem">Mensagem <span aria-hidden="true">*</span></label><textarea id="mensagem" name="mensagem" rows="6" required></textarea></div>
+        <p class="form-note">A validação é feita pelo navegador. Ao submeter, a página não processa nem envia os dados.</p>
+        <button class="button" type="submit">Verificar formulário</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-content"><p><strong>Pastelaria Pão Quente</strong><br>Rua de Fernandes Tomás, 350 · Porto</p><nav aria-label="Navegação do rodapé"><a href="contactos.html">Contactos</a> · <a href="acessibilidade.html">Acessibilidade</a></nav><p>© 2026 Pastelaria Pão Quente</p></div></footer>
+</body>
+</html>

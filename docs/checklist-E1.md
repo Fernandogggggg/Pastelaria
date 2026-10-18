@@ -8,6 +8,6 @@
 - [x] CSS externo, identidade visual creme/castanho/laranja e layout responsivo.
 - [x] Sitemap e três wireframes de baixa fidelidade.
 - [x] Documento de contribuição e pasta de evidências criados.
-- [ ] Validação oficial no W3C, a executar manualmente e guardar em `docs/evidencias/`.
+- [] Validação oficial no W3C, a executar manualmente e guardar em `docs/evidencias/`.
 - [ ] Três commits próprios por cada elemento do grupo.
 - [ ] Revisão final e entrega no GitHub.
